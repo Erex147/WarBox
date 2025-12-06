@@ -3,8 +3,7 @@ A Worldbox mod that adds primarily warfare content.
 [![](https://gamebanana.com/mods/embeddables/616451?type=large)](https://gamebanana.com/mods/616451)
 
 # Next update:
-* Heavy Aircraft Factory
-* ~~Naval base (100%)~~ im sorry we gotta do ts later
+* Naval base
 
 # Ideas
 * Propaganda tower: inspires all units in a city
