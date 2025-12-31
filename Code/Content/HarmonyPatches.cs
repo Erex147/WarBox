@@ -124,14 +124,12 @@ public static class Patch_CityUpdate //adding units according to population
 
             if (buildingAsset.type == "type_heavyfactory") // heavy vehicles
             {
-                float random = Randy.random();
-                if (random >= 0.55f) can_produce.Add(building.current_tile, "warbox_ifv");
+                if (Randy.randomChance(0.55f)) can_produce.Add(building.current_tile, "warbox_ifv");
                 else can_produce.Add(building.current_tile, "warbox_tank");
             }
             else if (buildingAsset.type == "type_lightfactory") // light vehicles
             {
-                float random = Randy.random();
-                if (random >= 0.6f) can_produce.Add(building.current_tile, "warbox_spg");
+                if (Randy.randomChance(0.6f)) can_produce.Add(building.current_tile, "warbox_spg");
                 else can_produce.Add(building.current_tile, "warbox_apc");
             }
             else if (buildingAsset.type == "type_lightaircraftfactory") // light helicopters
@@ -140,8 +138,7 @@ public static class Patch_CityUpdate //adding units according to population
             }
             else if (buildingAsset.type == "type_heavyaircraftfactory") // heavy planes
             {
-                float random = Randy.random();
-                if (random >= 0.6f) can_produce.Add(building.current_tile, "warbox_bomber");
+                if (Randy.randomChance(0.6f)) can_produce.Add(building.current_tile, "warbox_bomber");
                 else can_produce.Add(building.current_tile, "warbox_fighter");
             }
         }
