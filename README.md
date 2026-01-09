@@ -4,6 +4,7 @@ A Worldbox mod that adds primarily warfare content.
 
 # Next update:
 * Naval base
+* Culture trait for vehicles
 
 # Ideas
 * Propaganda tower: inspires all units in a city
@@ -15,3 +16,5 @@ A Worldbox mod that adds primarily warfare content.
 * actual army control
 * flamethrower
 * new armors and equipments
+* heavy vehicles remove biome
+* better soldier ai

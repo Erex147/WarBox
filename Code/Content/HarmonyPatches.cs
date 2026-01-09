@@ -198,9 +198,7 @@ public static class Patch_ActorAnimationLoader_Fix
 {
     static bool Prefix(string pTexturePath)
     {
-        if (SpriteTextureLoader.getSpriteList("actors/boats/" + pTexturePath).Length == 0)
-            return false;
-        return true;
+        return SpriteTextureLoader.getSpriteList("actors/boats/" + pTexturePath).Length != 0;
     }
 }
 
