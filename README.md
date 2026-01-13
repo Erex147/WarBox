@@ -4,7 +4,8 @@ A Worldbox mod that adds primarily warfare content.
 
 # Next update:
 * Naval base
-* Culture trait for vehicles
+* Culture trait for vehicles (Thanks gorg)
+* remove friendly fire
 
 # Ideas
 * Propaganda tower: inspires all units in a city
@@ -18,3 +19,4 @@ A Worldbox mod that adds primarily warfare content.
 * new armors and equipments
 * heavy vehicles remove biome
 * better soldier ai
+* blood

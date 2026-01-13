@@ -79,7 +79,7 @@ internal static class WarBoxEWE
         BaseStats stats_pistol = new BaseStats();
         stats_pistol["projectiles"] = 1;
         stats_pistol["accuracy"] = -10f;
-        stats_pistol["range"] = 35f;
+        stats_pistol["range"] = 14f;
         stats_pistol["damage"] = 35f;
         stats_pistol["attack_speed"] = 0f;
         stats_pistol["speed"] = 7.5f;
@@ -106,7 +106,7 @@ internal static class WarBoxEWE
         EquipmentAsset smg = CreateGun(
             id: "smg",
             stats: stats_smg,
-            equipment_value: 67,
+            equipment_value: 65,
             name: "SMG",
             description: "A fast firing sub-machine gun, not very accurate",
             goldCost: 0,
@@ -125,7 +125,7 @@ internal static class WarBoxEWE
         EquipmentAsset rifle = CreateGun(
             id: "rifle",
             stats: stats_rifle,
-            equipment_value: 65,
+            equipment_value: 66,
             name: "Rifle",
             description: "A standard bolt-action rifle",
             goldCost: 0,
@@ -144,7 +144,7 @@ internal static class WarBoxEWE
         EquipmentAsset autorifle = CreateGun(
             id: "autorifle",
             stats: stats_autorifle,
-            equipment_value: 67,
+            equipment_value: 68,
             name: "Automatic Rifle",
             description: "A repeating rifle, hits fast and hard",
             goldCost: 0,
@@ -164,7 +164,7 @@ internal static class WarBoxEWE
         EquipmentAsset sniperrifle = CreateGun(
             id: "sniperrifle",
             stats: stats_sniperrifle,
-            equipment_value: 67,
+            equipment_value: 65,
             name: "Sniper Rifle",
             description: "A very accurate bolt-action rifle, hits VERY hard",
             goldCost: 0,
@@ -183,7 +183,7 @@ internal static class WarBoxEWE
         EquipmentAsset shotgun = CreateGun(
             id: "shotgunreplace",
             stats: stats_shotgun,
-            equipment_value: 55,
+            equipment_value: 60,
             name: "Shotgun",
             description: "A shotgun firing many pellets, dangerous up close",
             goldCost: 0,
@@ -198,7 +198,7 @@ internal static class WarBoxEWE
         stats_rpg["range"] = 40f;
         stats_rpg["damage"] = 10f;
         stats_rpg["attack_speed"] = -10f;
-        stats_rpg["speed"] = -10f;
+        stats_rpg["speed"] = -4.5f;
 
         EquipmentAsset rpg = CreateGun(
             id: "rpg",
